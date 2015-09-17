@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace_user>
+	<active_project>
+		<label>Input5_1</label>
+	</active_project>
+	<projects>
+		<project>
+			<label>Input5_1</label>
+			<showfiles>false</showfiles>
+		</project>
+	</projects>
+	<open_files>
+		<docitem>
+			<path>Input5_1.java</path>
+			<source>true</source>
+			<index>0</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>Input5_1.class</path>
+			<source>true</source>
+			<index>1</index>
+			<active>true</active>
+		</docitem>
+	</open_files>
+	<symboltables>
+		<symboltable>
+			<path>Input5_1.java.sdk</path>
+			<symbols>
+				<symbol>Input5_1</symbol>
+			</symbols>
+		</symboltable>
+	</symboltables>
+</workspace_user>

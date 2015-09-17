@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>Input5_1</label>
+		<id>12</id>
+		<version>0</version>
+	</settings>
+	<users>
+		<user>
+			<path>Input5_1.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>Input5_1.jcp</path>
+		</project>
+	</projects>
+</workspace>
