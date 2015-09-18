@@ -32,7 +32,7 @@ public class Input5_1 {
 		else {
 			extra = "Congrats.";
 		}
-*/		
+		
 		System.out.println("Next year you will be " + nextYearAge + ". ");
 		System.out.print(extra);
 
