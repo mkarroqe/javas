@@ -21,19 +21,20 @@ public class Input5_1 {
 
 		int age = myScanner.nextInt(); // another built in method for reading ints; nextDouble is also a thing
 		int nextYearAge = age + 1;
-/* debugging this
+		String extra;
+
 		if (nextYearAge == 18) {
-			String extra = "You will be your own responsible and independent adult.";
+			extra = "You will be your own responsible and independent adult.";
 		}
 		else if (nextYearAge == 21) {
-			String extra = "More and more freedom for you.";
+			extra = "More and more freedom for you.";
 		}
 		else {
-			String extra = "Congrats.";
+			extra = "Congrats.";
 		}
 */		
 		System.out.println("Next year you will be " + nextYearAge + ". ");
-//		System.out.print(extra);
+		System.out.print(extra);
 
     }
 }
