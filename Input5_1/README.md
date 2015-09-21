@@ -4,7 +4,7 @@ Exploring keyboard input and the Scanner class.
 ### Program:
 This program has 3 methods beyond the main method: `sup()`, `numAvg()`, and `randy()`.
 
-##### `Sup()`
+##### `sup()`
 This method asks for your name and greets you, and then asks for your age.  It tells you how old you will be next year, and comments on that age.
 
 ##### `numAvg()`
