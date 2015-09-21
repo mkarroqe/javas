@@ -12,24 +12,16 @@
 	</projects>
 	<open_files>
 		<docitem>
-			<path>Input5_1.java</path>
+			<path>..\Countdown5\Countdown5.java</path>
 			<source>true</source>
 			<index>0</index>
 			<active>false</active>
 		</docitem>
 		<docitem>
-			<path>Input5_1.class</path>
+			<path>Input5_1.java</path>
 			<source>true</source>
 			<index>1</index>
 			<active>true</active>
 		</docitem>
 	</open_files>
-	<symboltables>
-		<symboltable>
-			<path>Input5_1.java.sdk</path>
-			<symbols>
-				<symbol>Input5_1</symbol>
-			</symbols>
-		</symboltable>
-	</symboltables>
 </workspace_user>
