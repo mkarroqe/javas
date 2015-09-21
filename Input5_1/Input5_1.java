@@ -12,15 +12,13 @@ public class Input5_1 {
 		System.out.print("Which method would you like to run? Type: numAvg, sup, xor randy. ");
 		String choice = mainScan.nextLine();
 		
-		// error here- it doesn't like my if/elses
-		
-		if (choice == "numAvg") {
+		if (choice.equals("numAvg")) {
 			numAvg();
 		}
-		else if (choice == "sup") {
+		else if (choice.equals("sup")) {
 			sup();
 		}
-		else if (choice == "randy") {
+		else if (choice.equals("randy")) {
 			randy();
 		}
 		else {
