@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>GuessingGame</label>
+		<id>3</id>
+		<version>0</version>
+	</settings>
+	<users>
+		<user>
+			<path>GuessingGame.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>BasicGame\BasicGame.jcp</path>
+		</project>
+		<project>
+			<path>Enhancement1\Enhancement1.jcp</path>
+		</project>
+		<project>
+			<path>Enhancement2\Enhancement2.jcp</path>
+		</project>
+		<project>
+			<path>Enhancement3\Enhancement3.jcp</path>
+		</project>
+	</projects>
+</workspace>

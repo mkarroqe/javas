@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace_user>
+	<active_project>
+		<label>Enhancement3</label>
+	</active_project>
+	<projects>
+		<project>
+			<label>BasicGame</label>
+			<showfiles>false</showfiles>
+		</project>
+		<project>
+			<label>Enhancement1</label>
+			<showfiles>false</showfiles>
+		</project>
+		<project>
+			<label>Enhancement2</label>
+			<showfiles>false</showfiles>
+		</project>
+		<project>
+			<label>Enhancement3</label>
+			<showfiles>false</showfiles>
+		</project>
+	</projects>
+	<open_files>
+		<docitem>
+			<path>BasicGame\BasicGame.java</path>
+			<source>true</source>
+			<index>0</index>
+			<active>true</active>
+		</docitem>
+	</open_files>
+	<symboltables>
+		<symboltable>
+			<path>BasicGame\BasicGame.java.sdk</path>
+			<symbols>
+				<symbol>BasicGame</symbol>
+			</symbols>
+		</symboltable>
+	</symboltables>
+</workspace_user>
