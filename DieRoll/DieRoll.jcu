@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace_user>
+	<active_project>
+		<label>GuessingGame5</label>
+	</active_project>
+	<projects>
+		<project>
+			<label>DieRoll</label>
+			<showfiles>false</showfiles>
+		</project>
+		<project>
+			<label>GuessingGame5</label>
+			<showfiles>false</showfiles>
+		</project>
+	</projects>
+	<open_files>
+		<docitem>
+			<path>DieRoll\DieRoll.java</path>
+			<source>true</source>
+			<index>0</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>GuessingGame5\GuessingGame5.java</path>
+			<source>true</source>
+			<index>1</index>
+			<active>true</active>
+		</docitem>
+	</open_files>
+	<symboltables>
+		<symboltable>
+			<path>GuessingGame5\GuessingGame5.java.sdk</path>
+			<symbols>
+				<symbol>GuessingGame5</symbol>
+			</symbols>
+		</symboltable>
+	</symboltables>
+</workspace_user>

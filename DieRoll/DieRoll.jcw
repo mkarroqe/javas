@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>DieRoll</label>
+		<id>44</id>
+		<version>0</version>
+	</settings>
+	<users>
+		<user>
+			<path>DieRoll.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>DieRoll\DieRoll.jcp</path>
+		</project>
+		<project>
+			<path>GuessingGame5\GuessingGame5.jcp</path>
+		</project>
+	</projects>
+</workspace>
