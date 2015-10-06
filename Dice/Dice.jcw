@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>Dice</label>
+	</settings>
+	<users>
+		<user>
+			<path>Dice.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>Dice\Dice.jcp</path>
+		</project>
+	</projects>
+</workspace>
