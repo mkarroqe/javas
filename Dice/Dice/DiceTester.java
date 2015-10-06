@@ -2,7 +2,7 @@
 
 public class DiceTester {
 	public static void main(String[] args) {
-		NumberCube myCube = new NumberCube(); // crating new instance of the NumberCube object
+		NumberCube myCube = new NumberCube(); // creating new instance of the NumberCube object
 
 		int numOfRolls = 0;
 		int theRoll;
