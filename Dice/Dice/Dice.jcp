@@ -32,6 +32,9 @@
 			<fileitem>
 				<path>NumberCube.java</path>
 			</fileitem>
+			<fileitem>
+				<path>PairOfDice.java</path>
+			</fileitem>
 		</include>
 	</files>
 	<tasks/>
