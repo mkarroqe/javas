@@ -1,0 +1,5 @@
+"E:\\Java w Goldman\\Classwork\\Dice\\Dice\\DiceProbability.java"
+"E:\\Java w Goldman\\Classwork\\Dice\\Dice\\DiceTester.java"
+"E:\\Java w Goldman\\Classwork\\Dice\\Dice\\NumberCube.java"
+"E:\\Java w Goldman\\Classwork\\Dice\\Dice\\PairOfDice.java"
+"E:\\Java w Goldman\\Classwork\\Dice\\Dice\\TestProbability.java"

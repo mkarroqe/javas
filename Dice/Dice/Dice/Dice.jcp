@@ -6,12 +6,15 @@
 		<root_path>\</root_path>
 		<output_path>\</output_path>
 		<source_path>\</source_path>
-		<jdkprofile_ref/>
-		<compiler_ref/>
+		<jdkprofile_ref>JDK version 1.8.0_05</jdkprofile_ref>
+		<compiler_ref>&lt;Default&gt;</compiler_ref>
 		<ant_ref/>
 	</settings>
 	<ant_events/>
-	<run_items/>
+	<run_items>
+		<item run="DiceTester"/>
+		<item run="TestProbability"/>
+	</run_items>
 	<runtimes>
 		<runtime>
 			<label>&lt;Default&gt;</label>
@@ -19,13 +22,16 @@
 			<applet_ref/>
 			<debugger_ref/>
 			<param/>
-			<run>DiceTester</run>
+			<run>TestProbability</run>
 			<verify>true</verify>
 		</runtime>
 	</runtimes>
 	<libraries/>
 	<files>
 		<include>
+			<fileitem>
+				<path>DiceProbability.java</path>
+			</fileitem>
 			<fileitem>
 				<path>DiceTester.java</path>
 			</fileitem>
@@ -34,6 +40,9 @@
 			</fileitem>
 			<fileitem>
 				<path>PairOfDice.java</path>
+			</fileitem>
+			<fileitem>
+				<path>TestProbability.java</path>
 			</fileitem>
 		</include>
 	</files>
