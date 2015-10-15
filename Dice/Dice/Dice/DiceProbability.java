@@ -24,6 +24,7 @@ public class DiceProbability
 		rolls = new int[highestRoll + 1]; // numbers of indexes we're reserving in the array
 
 		theoreticalOutcomes = new int[highestRoll + 1];
+		generateTheoreticalOutcomes();
 
 		// this refers to the local variable, in this case, the parameter
 		// helpful when there is an ambiguity
@@ -55,11 +56,10 @@ public class DiceProbability
 	{
 		for (int i = 2; i < rolls.length; i++)
 		{
-			// prints
+			int possibleOutcomes = dice.getDie1sides() * dice.getDie2sides();
 			System.out.print("rolls[" + i + "] = " + rolls[i] + "    ");
 
-			// percentage of what the roll is
-			System.out.println((rolls[i]/(double)numberOfRolls)*100 + "%");
+			System.out.println((rolls[i] / (double)numberOfRolls) + (theoreticalOutcomes[i] / (double)(possibleOutcomes)));
 		}
 	}
 

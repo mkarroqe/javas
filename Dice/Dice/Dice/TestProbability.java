@@ -14,5 +14,11 @@ public class TestProbability
 		dp2.generateOutcomes();
 		dp2.printOutcomes();
 
+		System.out.println();
+
+		DiceProbability dp3 = new DiceProbability(1000000);
+		dp3.generateOutcomes();
+		dp3.printOutcomes();
+
 	}
 }
