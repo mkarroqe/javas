@@ -8,6 +8,11 @@ public class TestProbability
 		dp1.generateOutcomes();
 		dp1.printOutcomes();
 
+		System.out.println();
+
+		DiceProbability dp2 = new DiceProbability(100);
+		dp2.generateOutcomes();
+		dp2.printOutcomes();
 
 	}
 }

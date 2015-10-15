@@ -8,6 +8,10 @@
 		<project>
 			<label>Dice</label>
 			<showfiles>false</showfiles>
+			<fileitem>
+				<path>Dice\DiceProbability.java</path>
+				<collapsedfolds>0;0;65;34</collapsedfolds>
+			</fileitem>
 		</project>
 	</projects>
 	<open_files>
@@ -15,7 +19,7 @@
 			<path>Dice\DiceTester.java</path>
 			<source>true</source>
 			<index>0</index>
-			<active>true</active>
+			<active>false</active>
 		</docitem>
 		<docitem>
 			<path>Dice\NumberCube.java</path>
@@ -33,7 +37,7 @@
 			<path>Dice\DiceProbability.java</path>
 			<source>true</source>
 			<index>3</index>
-			<active>false</active>
+			<active>true</active>
 		</docitem>
 		<docitem>
 			<path>Dice\TestProbability.java</path>

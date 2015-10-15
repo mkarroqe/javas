@@ -19,4 +19,13 @@ public class PairOfDice
 		return die1.roll() + die2.roll();
 	}
 
+	public int getDie1sides()
+	{
+		return die1.getNumOfSides();
+	}
+
+	public int getDie2sides()
+	{
+		return die2.getNumOfSides();
+	}
 }
