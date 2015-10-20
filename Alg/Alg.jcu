@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace_user>
+	<active_project>
+		<label>Alg</label>
+	</active_project>
+	<projects>
+		<project>
+			<label>Alg</label>
+			<showfiles>false</showfiles>
+			<fileitem>
+				<path>Alg\Coords.java</path>
+				<collapsedfolds>0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;137;124;118;107;101;96;91;80;74;68;62;56;51;45;34;29;15;8</collapsedfolds>
+			</fileitem>
+		</project>
+	</projects>
+	<open_files>
+		<docitem>
+			<path>Alg\Coords.java</path>
+			<source>true</source>
+			<index>0</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>Alg\Test.java</path>
+			<source>true</source>
+			<index>1</index>
+			<active>true</active>
+		</docitem>
+	</open_files>
+</workspace_user>

@@ -1,0 +1,2 @@
+"E:\\Java w Goldman\\Classwork\\Alg\\Alg\\Coords.java"
+"E:\\Java w Goldman\\Classwork\\Alg\\Alg\\Test.java"
