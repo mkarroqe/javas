@@ -40,7 +40,7 @@ Parameter passed in as the dilation factor; must be a double.
 #####```distanceFromOrigin()```
 Calculates the distance between the coordinates of a Coords object and the origin.
 
-######```distanceFrom()```
+#####```distanceFrom()```
 Requires a Coords object as a parameter.  Calculates the distance between the coordinates of two Coords objects.
 
 #####```slopeOfLineConnectingTo()```
