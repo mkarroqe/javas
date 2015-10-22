@@ -30,6 +30,9 @@
 				<path>Coords.java</path>
 			</fileitem>
 			<fileitem>
+				<path>LinearEquation.java</path>
+			</fileitem>
+			<fileitem>
 				<path>Test.java</path>
 			</fileitem>
 		</include>

@@ -4,10 +4,10 @@ public class Test
 {
 	public static void main(String args[])
 	{
-		Coords pt1 = new Coords();
+/*		Coords pt1 = new Coords();
 		Coords pt2 = new Coords(4, -7);
 		Coords pt3 = new Coords(8);
-/*
+
 		// when your print an object, it displays hex value of where it is stored in memory, inherited from Object class
 		// our own toString method overrides the original one and corrects this! :D
 		System.out.println(pt1);
@@ -55,7 +55,7 @@ public class Test
 		System.out.println(pt3);
 		double dist2 = pt2.distanceFrom(pt3);
 		System.out.println(dist2);
-*/
+
 		// testing out Coords(Coords other) action- copycat constructor
 		System.out.println(pt3);
 		Coords pt4 = new Coords(pt3);
@@ -81,6 +81,19 @@ public class Test
 
 		// dividing by zero with ints -> runtime error
 		// dividing by zero with doubles -> takes the limit (neg or positive infinity)
+
+*/		// testing out pointOfIntersection()
+		LinearEquation line1 = new LinearEquation(2, 3, 6);
+		LinearEquation line2 = new LinearEquation(5, 2, 20);
+		Coords intersection = line1.pointOfIntersection(line2);
+		System.out.println(intersection);
+
+		System.out.println();
+		// testing boolean equals
+		Coords pt1 = new Coords(4, -7);
+		Coords pt2 = new Coords(4, -7);
+		boolean areEqual = pt1.equals(pt2);
+		System.out.println(areEqual);
 
 	}
 }

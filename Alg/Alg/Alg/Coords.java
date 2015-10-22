@@ -59,6 +59,13 @@ public class Coords
 		return y;
 	}
 
+
+	// now tests values instead of memory addresses
+	public boolean equals(Coords other)
+	{
+		return this.x == other.x && this.y == other.y;
+	}
+
 	// MUTATORS
 	public void setX(double value)
 	{
