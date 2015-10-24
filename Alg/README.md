@@ -54,3 +54,36 @@ Library of functions that play around with basic coordinate geometry.
 
 ##LinearEquation
 Library of functions that play around with linear equations.
+
+* ##### ```LinearEquation()```
+  - This is our constructor
+  - Accepts three parameters
+    * first parameter: x coefficient
+    * second parameter: y coefficient
+    * third parameter: constant
+  - Also accepts another LinearEquation object as a single parameter (copycat constructor)
+
+* ##### ```isVertical()```
+  - boolean method; returns true if a LinearEquation object is vertical, false if it is not.
+
+* ##### ```isHorizontal()```
+  - boolean method; returns true if a LinearEquation object is horizontal, false if it is not.
+
+* ##### ```slope()```
+  - Calculates the slope of a LinearEquation objects
+
+* ##### ```yIntercept()```
+  - Calculates the y-intercept of a LinearEquation object
+
+* ##### ```xIntercept()```
+  - Calculates the x-intercept of a LinearEquation object
+  
+* ##### ```yInterceptCoords()```
+  - Returns the coordinates of the point where a LinearEquation object meets the y-axis as a Coords object
+
+* ##### ```xInterceptCoords()```
+  - Returns the coordinates of the point where a LinearEquation object meets the x-axis as a Coords object
+
+* ##### ```pointOfIntersection()```
+  - Returns a the point of intersection of two LinearEquation objects as a Coords object
+  - Requires a LinearEquation object as a parameter
