@@ -2,7 +2,7 @@
 Contains Coords and LinearEquation, two libraries of functions.  Read more below:
 
 ##Coords
-Library of functions that play around with basic coordinate geometry.
+Library of functions that play around with basic coordinate geometry.  Java code [here](1).
 
 * #####```getX()```
   - Returns x value of a Coords object as a double.
@@ -52,8 +52,8 @@ Library of functions that play around with basic coordinate geometry.
   System.out.println(slope);
   ````
 
-##LinearEquation
-Library of functions that play around with linear equations.
+##LinearEquation 
+Library of functions that play around with linear equations.  Java code [here](2).
 
 * ##### ```LinearEquation()```
   - This is our constructor
@@ -87,3 +87,6 @@ Library of functions that play around with linear equations.
 * ##### ```pointOfIntersection()```
   - Returns a the point of intersection of two LinearEquation objects as a Coords object
   - Requires a LinearEquation object as a parameter
+
+[1]: https://github.com/mkarroqe/javas/blob/master/Alg/Alg/Alg/Coords.java
+[2]: https://github.com/mkarroqe/javas/blob/master/Alg/Alg/Alg/LinearEquation.java
