@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>Alg</label>
+	</settings>
+	<users>
+		<user>
+			<path>Alg.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>Alg\Alg.jcp</path>
+		</project>
+	</projects>
+</workspace>

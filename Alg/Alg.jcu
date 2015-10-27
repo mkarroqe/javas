@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace_user>
+	<active_project>
+		<label>Alg</label>
+	</active_project>
+	<projects>
+		<project>
+			<label>Alg</label>
+			<showfiles>false</showfiles>
+			<fileitem>
+				<path>Alg\Coords.java</path>
+				<collapsedfolds>144;131;125;114;108;103;98;87;81;75;69;56;51;15;8</collapsedfolds>
+			</fileitem>
+		</project>
+	</projects>
+	<open_files>
+		<docitem>
+			<path>Alg\Coords.java</path>
+			<source>true</source>
+			<index>0</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>Alg\LinearEquation.java</path>
+			<source>true</source>
+			<index>1</index>
+			<active>true</active>
+		</docitem>
+		<docitem>
+			<path>Alg\Test.java</path>
+			<source>true</source>
+			<index>2</index>
+			<active>false</active>
+		</docitem>
+	</open_files>
+</workspace_user>
