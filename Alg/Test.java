@@ -83,7 +83,7 @@ public class Test
 		// dividing by zero with doubles -> takes the limit (neg or positive infinity)
 
 */		// testing out pointOfIntersection()
-		LinearEquation line1 = new LinearEquation(2, 3, 6);
+		LinearEquation line1 = new LinearEquation(2, 4, 5);
 		LinearEquation line2 = new LinearEquation(5, 2, 20);
 		Coords intersection = line1.pointOfIntersection(line2);
 		System.out.println(intersection);
@@ -94,6 +94,18 @@ public class Test
 		Coords pt2 = new Coords(4, -7);
 		boolean areEqual = pt1.equals(pt2);
 		System.out.println(areEqual);
+
+		LinearEquation line3 = new LinearEquation(6, 12, 15);
+		System.out.println();
+
+		// testing out equals() - this way it tests values and not memory addresses
+		System.out.println(line1.equals(line2)); // false
+		System.out.println(line1.equals(line3)); // true - contain same slope and same coordinates
+
+		System.out.println();
+
+		// testing out isParallelTo()
+		System.out.println(line1.isParallelTo(line2));
 
 	}
 }
