@@ -9,8 +9,20 @@
 			<label>Alg</label>
 			<showfiles>false</showfiles>
 			<fileitem>
+				<path>Alg\ComplexNumber.java</path>
+				<collapsedfolds>144;139;112;81;71;48;42;36;31;25;20;15;8</collapsedfolds>
+			</fileitem>
+			<fileitem>
 				<path>Alg\Coords.java</path>
-				<collapsedfolds>144;131;125;114;108;103;98;87;81;75;69;56;51;15;8</collapsedfolds>
+				<collapsedfolds>135;122;116;105;99;94;89;78;72;66;60;54;49;44;38;29;25;12;6</collapsedfolds>
+			</fileitem>
+			<fileitem>
+				<path>Alg\LinearEquation.java</path>
+				<collapsedfolds>238;227;222;170;159;126;121;116;111;106;100;86;75;70;65;55;49;43;35;28;17;10</collapsedfolds>
+			</fileitem>
+			<fileitem>
+				<path>Alg\QuadraticEquation.java</path>
+				<collapsedfolds>0;0;0;0;0;0;0;110;105;100;55;22;15;8</collapsedfolds>
 			</fileitem>
 		</project>
 	</projects>
@@ -25,13 +37,31 @@
 			<path>Alg\LinearEquation.java</path>
 			<source>true</source>
 			<index>1</index>
-			<active>true</active>
+			<active>false</active>
 		</docitem>
 		<docitem>
 			<path>Alg\Test.java</path>
 			<source>true</source>
 			<index>2</index>
 			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>Alg\ComplexNumber.java</path>
+			<source>true</source>
+			<index>3</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>Alg\QuadraticRoots.java</path>
+			<source>true</source>
+			<index>4</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>Alg\QuadraticEquation.java</path>
+			<source>true</source>
+			<index>5</index>
+			<active>true</active>
 		</docitem>
 	</open_files>
 </workspace_user>

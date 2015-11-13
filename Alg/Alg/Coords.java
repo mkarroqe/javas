@@ -4,15 +4,12 @@ public class Coords
 {
 	private double x, y;
 
-	// CONSTRUCTORS: NO RETURN TYPE!
-	// parameters that client enters become the points
-	public Coords(double xValue, double yValue) // not the same as the private ints
+	public Coords(double xValue, double yValue)
 	{
 		this.x = xValue;
 		this.y = yValue;
 	}
 
-	// no parameters- default is origin
 	public Coords()
 	{
 		this(0,0);
@@ -26,15 +23,12 @@ public class Coords
 		*/
 	}
 
-	// if they pass in one value, it's passed in as both the x and y coordinates
 	public Coords(double value)
 	{
 		this(value, value);
 	}
-	// copy constuctor, will build a new copy coordinate based on the one that it's receiving, but it will be an independent object
-	public Coords(Coords other) // other is the local name we are calling it; we recieve a Coords object
+	public Coords(Coords other)
 	{
-		// "this" not necessary but nice to add, since it creates symmetry
 		this.x = other.x;
 		this.y = other.y;
 
@@ -42,7 +36,6 @@ public class Coords
 	 // this(other.x, other.y);
 	}
 
-	// *** KNOW FOR EXAM!!!!!!!!!! ***
 	public String toString()
 	{
 		return "(" + x + ", " + y + ")";
@@ -59,8 +52,6 @@ public class Coords
 		return y;
 	}
 
-
-	// now tests values instead of memory addresses
 	public boolean equals(Coords other)
 	{
 		return this.x == other.x && this.y == other.y;
@@ -129,7 +120,7 @@ public class Coords
 		return Math.hypot(x, y);
 	}
 
-	public double distanceFrom(Coords other) // parameter is another Coords object, named "other"
+	public double distanceFrom(Coords other)
 	{
 		// object calling the method is the "this"
 		double deltaX = this.x - other.x;

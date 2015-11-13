@@ -82,7 +82,7 @@ public class Test
 		// dividing by zero with ints -> runtime error
 		// dividing by zero with doubles -> takes the limit (neg or positive infinity)
 
-*/		// testing out pointOfIntersection()
+		// testing out pointOfIntersection()
 		LinearEquation line1 = new LinearEquation(2, 4, 5);
 		LinearEquation line2 = new LinearEquation(5, 2, 20);
 		Coords intersection = line1.pointOfIntersection(line2);
@@ -106,6 +106,31 @@ public class Test
 
 		// testing out isParallelTo()
 		System.out.println(line1.isParallelTo(line2));
+
+		System.out.println(line3);
+
+		System.out.println();
+		LinearEquation line4 = new LinearEquation(2, -6, -5);
+		System.out.println(line4);
+
+		System.out.println();
+		LinearEquation line5 = new LinearEquation(0, -6, -5);
+		System.out.println(line5);
+
+		System.out.println();
+		LinearEquation line7 = new LinearEquation(0, 0, 7);
+		System.out.print(line7 + " is ");
+		System.out.print(line7.isValid() + ". ");
+		System.out.println();
+
+		ComplexNumber hey = new ComplexNumber(-8, -5);
+		System.out.println(hey);
+*/
+
+		QuadraticEquation qLine1 = new QuadraticEquation(2, 4, 5);
+		System.out.println(qLine1);
+		QuadraticRoots qRoots1 = qLine1.getRoots();
+		System.out.println(qRoots1);
 
 	}
 }

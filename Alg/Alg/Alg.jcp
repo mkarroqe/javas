@@ -27,10 +27,19 @@
 	<files>
 		<include>
 			<fileitem>
+				<path>ComplexNumber.java</path>
+			</fileitem>
+			<fileitem>
 				<path>Coords.java</path>
 			</fileitem>
 			<fileitem>
 				<path>LinearEquation.java</path>
+			</fileitem>
+			<fileitem>
+				<path>QuadraticEquation.java</path>
+			</fileitem>
+			<fileitem>
+				<path>QuadraticRoots.java</path>
 			</fileitem>
 			<fileitem>
 				<path>Test.java</path>

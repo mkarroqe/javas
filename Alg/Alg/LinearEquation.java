@@ -3,18 +3,11 @@
 public class LinearEquation
 {
 	//ax + by + c = 0
-	//instance variables
 
-	//x coefficient
 	private double a;
-
-	//y coefficient
 	private double b;
-
-	//constant
 	private double c;
 
-	//constructor
 	public LinearEquation(double xCoeff, double yCoeff, double constant)
 	{
 		a = xCoeff;
@@ -54,7 +47,6 @@ public class LinearEquation
 		this(other.slope(), point);
 	}
 
-	//copy constructor
 	public LinearEquation(LinearEquation other)
 	{
 		// this would find another constructor that's taking in 3 doubles (the constructor above)
@@ -134,6 +126,10 @@ public class LinearEquation
 
 	public Coords pointOfIntersection(LinearEquation other)
 	{
+		// cannot have a point of intersection if one of the lines is not valid
+		if(!this.isValid() || !other.isValid())
+			return null;
+
 		// avoiding dealing with negative and positive infinity as slopes
 		if (this.isVertical() && other.isVertical())
 			return null;
@@ -147,7 +143,6 @@ public class LinearEquation
 		if (this.slope() == other.slope())
 			return null;
 
-		// GOLDMAN WAY
 		double a1 = this.a;
 		double b1 = this.b;
 		double c1 = this.c;
@@ -164,19 +159,92 @@ public class LinearEquation
 	// sending this to the method we already wrote with a double and a coords obj as parameters
 	public LinearEquation parallelLine(Coords point)
 	{
-		/*
-			LinearEquation other = new LinearEquation(this.slope(), point);
-			return other;
-		*/
+		if (!this.isValid())
+			return null;
 
-		// works as long as we don't have a vertical line
+		if (this.isVertical())
+			return new LinearEquation(1, 0, -1 * point.getX());
+
 		return new LinearEquation(this.slope(), point);
 	}
 
 	public LinearEquation perpendicularLine(Coords point)
 	{
-		// will not work with a horizontal or vertical line
+		if (!this.isValid())
+			return null;
+
+		if (this.isHorizontal())
+			return new LinearEquation(1, 0, -1 * point.getX());
+
+		if (this.isVertical())
+			return new LinearEquation(0, 1, -1 * point.getY());
+
 		return new LinearEquation(-1/this.slope(), point);
 	}
 
+	public String toString()
+	{
+	//	return a + "x + "+ b + "y + " + c + " = 0";
+		String xPart = "";
+		String yPart = "";
+		String constantPart = "";
+
+		if (a != 0)
+			xPart = a + "x + ";
+
+		if (b != 0)
+		{
+			// x has a non-zero coefficient
+			if (a != 0)
+			{
+				if (b < 0)
+					yPart = "- ";
+				else
+					yPart = "+ ";
+				yPart = yPart + Math.abs(b) + "y ";
+			}
+			// x has a zero coefficient
+			else
+				yPart = b + "y ";
+		}
+
+		if (c != 0)
+		{
+			if (c < 0)
+				constantPart = "- ";
+			else
+				constantPart = "+ ";
+			constantPart = constantPart + Math.abs(c);
+		}
+
+		return xPart + yPart + constantPart + " = 0";
+	}
+
+	public boolean isValid()
+	{
+		return a!=0 || b!=0;
+	}
+
+	public double shortestDistanceFrom(Coords point)
+	{
+		LinearEquation perp = perpendicularLine(point);
+		Coords intersection = pointOfIntersection(perp);
+		return intersection.distanceFrom(point);
+
+		// OR:
+		// return pointOfIntersection(perpendicularLine(point)).distanceFrom(point);
+
+	}
+
+	public boolean isOnLine(Coords point)
+	{
+		double x = point.getX();
+		double y = point.getY();
+		double solve = (a*x) + (b*y) + c;
+
+		if (solve == 0)
+			return true;
+		else
+			return false;
+	}
 }

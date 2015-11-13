@@ -1,3 +1,6 @@
+"E:\\Java w Goldman\\Classwork\\Alg\\Alg\\ComplexNumber.java"
 "E:\\Java w Goldman\\Classwork\\Alg\\Alg\\Coords.java"
 "E:\\Java w Goldman\\Classwork\\Alg\\Alg\\LinearEquation.java"
+"E:\\Java w Goldman\\Classwork\\Alg\\Alg\\QuadraticEquation.java"
+"E:\\Java w Goldman\\Classwork\\Alg\\Alg\\QuadraticRoots.java"
 "E:\\Java w Goldman\\Classwork\\Alg\\Alg\\Test.java"
