@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>PrimeNumberz</label>
+	</settings>
+	<users>
+		<user>
+			<path>PrimeNumberz.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>Primez\Primez.jcp</path>
+		</project>
+	</projects>
+</workspace>

@@ -1,0 +1,2 @@
+"E:\\Java w Goldman\\Classwork\\PrimeNumberz\\Primez\\Primez.java"
+"E:\\Java w Goldman\\Classwork\\PrimeNumberz\\Primez\\TestPrimez.java"
