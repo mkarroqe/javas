@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace_user>
+	<active_project>
+		<label>Hello5</label>
+	</active_project>
+	<projects>
+		<project>
+			<label>Hello5</label>
+			<showfiles>false</showfiles>
+		</project>
+	</projects>
+	<symboltables>
+		<symboltable>
+			<path>..\Input5_1\Input5_1.java.sdk</path>
+			<symbols>
+				<symbol>Input5_1</symbol>
+			</symbols>
+		</symboltable>
+		<symboltable>
+			<path>Hello5.java.sdk</path>
+			<symbols>
+				<symbol>Hello5</symbol>
+			</symbols>
+		</symboltable>
+	</symboltables>
+</workspace_user>
