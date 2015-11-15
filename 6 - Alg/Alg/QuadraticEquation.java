@@ -85,7 +85,7 @@ public class QuadraticEquation
 /*	public Coords vertex()
 	{
 		double x = (-b) / (2 * a)
-		// jermeyyyyyyyyyyyyyyyyyy
+		// finish
 	}
 
 	public boolean hasMinimum()
