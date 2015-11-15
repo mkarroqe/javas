@@ -34,7 +34,7 @@ public class QuadraticEquation
 		double h = vertex.getX();
 		double k = vertex.getY();
 
-		/* look at this sexy algebra
+		/* algebra
 
 			q(x-h)^2 + k
 			q(x^2 - 2hx + h^2) + k
@@ -50,12 +50,22 @@ public class QuadraticEquation
 	// if root1 and root2 are not conjugates, use only the real magnitude of the roots
 	public QuadraticEquation (double coefficient, QuadraticRoots theRoots)
 	{
-
+        if (hasRealRoots())
+        {
+            a = coefficient;
+            b = coefficient * -(theRoots.getRoot1().getRealMagnitude() + theRoots.getRoot2().getRealMagnitude());
+            c = coefficient * theRoots.getRoot1().getRealMagnitude() * theRoots.getRoot2().getRealMagnitude();
+        }
+        a = coefficient;
+        b = -2 * coefficient * (theRoots.getRoot1().getRealMagnitude());
+        c = coefficient * Math.pow(theRoots.getRoot1().getRealMagnitude(), 2) + Math.pow(theRoots.getRoot1().getImaginaryMagnitude(), 2);
 	}
 
 	public QuadraticEquation(LinearEquation derivative, Coords point)
 	{
-		// code here
+        a = derivative.getA()/2;
+        b = derivative.getC();
+        c = -(a * point.getX() * point.getX() + b * point.getX());
 	}
 
 	public String toString()
@@ -82,22 +92,22 @@ public class QuadraticEquation
 		return new QuadraticRoots(root1);
 	}
 
-/*	public Coords vertex()
+	public Coords vertex()
 	{
 		double x = (-b) / (2 * a)
-		// jermeyyyyyyyyyyyyyyyyyy
+		return new Coords(x, a*Math.pow(x, 2) + b*x + c);
 	}
 
 	public boolean hasMinimum()
 	{
-
+        return a > 0;
 	}
 
 	public boolean hasMaximum()
 	{
-
+        return a < 0;
 	}
-*/
+
 	public boolean hasRealRoots()
 	{
 		return getDiscriminant() >= 0;
@@ -108,20 +118,20 @@ public class QuadraticEquation
 		return getDiscriminant() == 0;
 	}
 
-/*	public LinearEquation axisOfSymmetry()
+	public LinearEquation axisOfSymmetry()
 	{
-
+        return new LinearEquation(1, 0, (b / (2 * a)));
 	}
 
 	// extra accessor methods
 	public LinearEquation derivative()
 	{
-
+        return new LinearEquation(2*a, 0, b);
 	}
 
 	public double slopeOfTangent(double xCoord)
 	{
-
+        return (derivative().getA() * xCoord + derivative().getC());
 	}
-*/
+
 }
