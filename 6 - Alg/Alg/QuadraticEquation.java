@@ -94,7 +94,7 @@ public class QuadraticEquation
     
     public Coords vertex()
     {
-        double x = (-b) / (2 * a)
+        double x = (-b) / (2 * a);
         return new Coords(x, a*Math.pow(x, 2) + b*x + c);
     }
     

@@ -52,6 +52,13 @@ public class LinearEquation
 		// this would find another constructor that's taking in 3 doubles (the constructor above)
 		this(other.a, other.b, other.c);
 	}
+    
+    public double checkZeroes(double val) //preventing negative zero values
+    {
+        if(val == -0.0)
+            return 0.0;
+        return val;
+    }
 
 	public boolean equals(LinearEquation other)
 	{
@@ -97,6 +104,39 @@ public class LinearEquation
 		// simpler - the products of the slopes should be negative 1 (negative reciprocals)
 		return this.slope() * other.slope() == -1;
 	}
+    
+    public double getA()
+    {
+        return a;
+    }
+    
+    public double getB()
+    {
+        return b;
+    }
+    
+    public double getC()
+    {
+        return c;
+    }
+    
+    public boolean setA(double aCoefficient)
+    {
+        a = aCoefficient;
+        return a == aCoefficient;
+    }
+    
+    public boolean setB(double bCoefficient)
+    {
+        b = bCoefficient;
+        return b == bCoefficient;
+    }
+    
+    public boolean setC(double cCoefficient)
+    {
+        c = cCoefficient;
+        return c == cCoefficient;
+    }
 
 	public double slope()
 	{
