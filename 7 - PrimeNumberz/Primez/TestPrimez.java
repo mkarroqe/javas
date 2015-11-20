@@ -6,7 +6,7 @@ public class TestPrimez
 {
 	public static void main(String[] args)
 	{
-		System.out.print("Enter in a number to determine whether or not it is prime: ");
+	/*	System.out.print("Enter in a number to determine whether or not it is prime: ");
 
 		Scanner scanner = new Scanner(System.in);
 		int test = scanner.nextInt();
@@ -20,17 +20,21 @@ public class TestPrimez
 
 		System.out.println();
 
-		int[] primes = Primez.getPrimes(8, 4);
+		int[] primes = Primez.getPrimes(31, 11);
 
-		for (int i = 0; i < primes.length; i++)
-			System.out.println(primes[i]);
+		for (int n: primes)
+			System.out.print(n + " ");
 
 		System.out.println();
+		System.out.println();
 
-		int[] primes2 = Primez.getPrimesWithinRange(2, 10);
+		Primez.printIntArray(primes);
+	*/
 
-		for (int i = 0; i < primes2.length; i++)
-			System.out.println(primes2[i]);
-
+		int[] tester = new int[]{2, 2, 3, 5, -7, 8, 8, 8, 8, 8, 9, -10, 12, 12, 12, 3};
+	/*	System.out.println("The average is " + Primez.average(tester));
+		System.out.println("The average of the positives is " + Primez.averagePositives(tester));
+		System.out.println("The average of the first half is " + Primez.averageFirstHalf(tester));
+	*/ 	System.out.println(Primez.timesSignChanges(tester));
 	}
 }

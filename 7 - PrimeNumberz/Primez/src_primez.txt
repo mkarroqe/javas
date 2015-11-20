@@ -1,2 +1,2 @@
-"E:\\Java w Goldman\\Classwork\\PrimeNumberz\\Primez\\Primez.java"
-"E:\\Java w Goldman\\Classwork\\PrimeNumberz\\Primez\\TestPrimez.java"
+"E:\\Java w Goldman\\Classwork\\7 - PrimeNumberz\\Primez\\Primez.java"
+"E:\\Java w Goldman\\Classwork\\7 - PrimeNumberz\\Primez\\TestPrimez.java"
