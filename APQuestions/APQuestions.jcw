@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>APQuestions</label>
+	</settings>
+	<users>
+		<user>
+			<path>APQuestions.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>StudentRecord\StudentRecord.jcp</path>
+		</project>
+	</projects>
+</workspace>
